@@ -235,6 +235,64 @@ li:last-child {
   text-decoration: none;
 }
 
+.olho-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  float:left;
+  padding: 20px 0 20px 5%;
+  margin: 30px 0 30px 0;
+  background-image: url("img/aspa.png");
+  background-repeat: no-repeat;
+}
+
+.olho {
+  font-family: 'Montserrat', serif;
+  background-repeat: no-repeat;
+  font-size: 1.6em;
+  color: #000;
+  line-height: 1.4em;
+  float: left;
+  text-align: right;
+  padding-left: 5px;
+  margin-right: 5%;
+  width: 60%;
+}
+
+.olho-gov {
+  font-family: 'Montserrat', serif;
+  background-repeat: no-repeat;
+  font-size: 1.6em;
+  color: #000;
+  line-height: 1.4em;
+  float: left;
+  text-align: center;
+  padding-left: 5px;
+  margin-right: 5%;
+  width: 90%;
+  margin: 20px 5% 10px 5%;
+}
+
+.autor {
+font: 14px Arial, Helvetica, sans-serif;
+line-height: 140%;
+margin-top: 10px;
+}
+
+.shadow-bottom {
+  box-shadow: 0 5px 7px #444444;
+}
+
+.boneco {
+float: right;
+width: 30%;
+padding-top: 30%;
+border-radius: 50%;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
 .assinatura {
   font-family: 'Montserrat', sans-serif;
 }
@@ -269,6 +327,32 @@ li:last-child {
   .linhatempo {
     width: 90%;
     right: 10;
+  }
+  .boneco-mobile {
+    width: 40%;
+    margin-left: 30%;
+    float: none;
+    padding-top: 40%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .olho-container {
+    display: block;
+    padding: 0;
+    background: none;
+    margin: 20px 0 20px 0;
+  }
+
+  .olho, .olho-gov {
+    width:80%;
+    margin: 20px 10% 10px 10%;
+    float: none;
+    text-align: center;
+    background-image: url("aspa.fw.png");
+    background-repeat: no-repeat;
   }
 
   .foto-direita {
