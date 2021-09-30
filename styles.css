@@ -95,10 +95,12 @@ vacina {
   margin: auto;
   margin-top: 0;
   padding-top: 0;
+  margin-bottom: 0
 }
 
 .container {
   margin-top: 0;
+  margin-bottom: -20px;
 }
 
 h2 {
@@ -219,12 +221,16 @@ li:last-child {
   font-weight: bold;
 }
 
+.texto-branco {
+  color: #FFFFFF;
+}
+
 @media only screen and (min-width: 1024px) {
   .mobi {
     display: none;
   }
 
-  .texto {
+  .texto, .texto-branco {
     width: 65%;
     max-width: 850;
     margin:auto;
@@ -240,7 +246,7 @@ li:last-child {
     display: none;
   }
 
-  .texto {
+  .texto, .texto-branco {
     width: 90%;
     max-width: 900;
     margin:auto;
