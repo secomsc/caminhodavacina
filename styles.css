@@ -222,7 +222,21 @@ li:last-child {
 }
 
 .texto-branco {
+  color: #FFFFFF!important;
+}
+
+.rodape {
+  width: 100%!important;
+  background-color: #0b3e46;
+}
+
+.rodape a {
   color: #FFFFFF;
+  text-decoration: none;
+}
+
+.assinatura {
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (min-width: 1024px) {
