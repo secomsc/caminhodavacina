@@ -18,6 +18,10 @@ vacina {
   width: 100%;
 }
 
+.navbar-brand {
+  margin-left: 10px;
+}
+
 .superior {
   background-color: #248b9a;
   color: #FFFFFF;
