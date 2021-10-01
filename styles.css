@@ -302,6 +302,10 @@ background-repeat: no-repeat;
   font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
 .foto50esquerda {
   float: left;
   width: 49.5%;
