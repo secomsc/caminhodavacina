@@ -386,6 +386,33 @@ h2 {
     display: none;
   }
 
+  li {
+    padding: 50px 10px;
+  }
+
+  li:nth-child(odd) {
+      border-right: none;
+      border-left: 5px solid;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin-right: 10px;
+      padding-right: 0;
+  }
+
+  li:nth-child(even) {
+      border-left: none;
+      border-right: 5px solid;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-left: 10px;
+      padding-left: 0;
+      text-align: right;
+  }
+
+  h2 {
+    margin: 10px 20px 20px 20px;
+  }
+
   .texto, .texto-branco {
     width: 90%;
     max-width: 900;
