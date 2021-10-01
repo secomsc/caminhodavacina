@@ -364,8 +364,8 @@ background-repeat: no-repeat;
   }
 
   .video-youtube {
-    width: 98%;
-    margin-left: 1%;
+    width: 95%;
+    margin: auto;
     margin-bottom: 30px;
   }
 
