@@ -149,7 +149,7 @@ ul:after {
 }
 
 li {
-    min-height: 280px;
+    min-height: 350px;
     border: 5px solid;
     border-color: #177d8c !important;
     margin: 0 0 -5px 0;
@@ -232,6 +232,7 @@ li:last-child {
 .rodape {
   width: 100%!important;
   background-color: #0b3e46;
+  color: #FFFFFF;
 }
 
 .rodape a {
@@ -301,20 +302,49 @@ background-repeat: no-repeat;
   font-family: 'Montserrat', sans-serif;
 }
 
+.foto50esquerda {
+  float: left;
+  width: 49.5%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 0.17%;
+  margin-left: 0.33%;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+.foto50direita {
+  float: left;
+  width: 49.5%;
+  margin-right: 0.33%;
+  margin-left: 0.17%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+
 @media only screen and (min-width: 1024px) {
   .mobi {
     display: none;
   }
 
+  .alta {
+    min-height: 750px;
+  }
+
   .texto, .texto-branco {
     width: 65%;
-    max-width: 850;
+    max-width: 850px;
     margin:auto;
   }
 
   .nav-link {
     margin-left: 30px;
   }
+
+
 }
 
 @media only screen and (max-width: 1023px) {
