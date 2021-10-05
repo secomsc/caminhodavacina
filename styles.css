@@ -10,6 +10,10 @@ vacina {
   font-weight: bold;
 }
 
+body {
+  background-color: #E9E9E9;
+}
+
 .legenda {
   font-family: 'Titillium Web', sans-serif;
   font-size: 0.8em;
@@ -133,7 +137,6 @@ ul {
 ul:before, ol:after {
     content: "";
     background: #fff;
-    width: 5px;
     height: 60px;
     position: absolute;
     z-index: 2;
