@@ -357,6 +357,23 @@ h2 {
   text-align: right;
 }
 
+.foto-float-50-e {
+  float:left;
+  width: 49.75%;
+  margin: 0 0.25% 3px 0;
+}
+
+.foto-float-50-d {
+  float:left;
+  width: 49.75%;
+  margin: 0 0 3px 0.25%;
+}
+
+.foto-float-100 {
+  float:left;
+  width: 100%;
+  margin: 0 0 3px 0;
+}
 
 @media only screen and (min-width: 1024px) {
   .mobi {
@@ -365,24 +382,6 @@ h2 {
 
   .alta {
     min-height: 750px;
-  }
-
-  .foto-float-50-e {
-    float:left;
-    width: 49.75%;
-    margin: 0 0.25% 3px 0;
-  }
-
-  .foto-float-50-d {
-    float:left;
-    width: 49.75%;
-    margin: 0 0 3px 0.25%;
-  }
-
-  .foto-float-100 {
-    float:left;
-    width: 100%;
-    margin: 0 0 3px 0;
   }
 
   .texto, .texto-branco {
@@ -450,11 +449,7 @@ h2 {
     margin:auto;
   }
 
-  .foto-float-50-d, .foto-float-50-e, .foto-float-100 {
-    float:left;
-    width: 100%;
-    margin: 0 0 3px 0;
-  }
+
 
   .video-youtube {
     width: 95%;
