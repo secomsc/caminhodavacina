@@ -408,6 +408,11 @@ h2 {
     display: none;
   }
 
+  #carousel-wolff {
+    width: 99%;
+    padding: 3px;
+  }
+
   li {
     padding: 50px 10px;
   }
@@ -432,7 +437,7 @@ h2 {
   }
 
   h2 {
-    margin: 10px 20px 20px 20px;
+    margin: 0px 20px 0px 20px;
   }
 
   .texto, .texto-branco {
