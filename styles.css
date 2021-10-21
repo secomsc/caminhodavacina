@@ -408,6 +408,10 @@ h2 {
     display: none;
   }
 
+  .mosaico {
+    margin-top: 15px;
+  }
+
   #carousel-wolff {
     width: 99%;
     padding: 3px;
