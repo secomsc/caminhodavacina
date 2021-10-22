@@ -51,6 +51,10 @@ body {
   margin: auto!important;
 }
 
+.modal-body {
+  padding: 0!important;
+}
+
 
 .superior {
   background-color: #248b9a;
@@ -416,6 +420,11 @@ h2 {
 
   .mosaico {
     margin-top: 15px;
+  }
+
+  .modal-content, .modal-dialog {
+    width: 97%!important;
+    margin-top: 20px!important;
   }
 
   #carousel-wolff {
