@@ -45,6 +45,12 @@ body {
   margin-left: 10px;
 }
 
+.modal-content, .modal-dialog {
+  width: 95%!important;
+  max-width: 1000px!important;
+}
+
+
 .superior {
   background-color: #248b9a;
   color: #FFFFFF;
