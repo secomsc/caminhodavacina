@@ -17,11 +17,14 @@ body {
 #carousel-wolff {
   width: 80%;
   padding: 10px;
+  padding-top: 20px;
   max-width: 1190px;
   background-color: #FFFFFF;
   margin: auto;
   margin-top: 30px;
+  text-align: center;
 }
+
 
 .legenda {
   font-family: 'Titillium Web', sans-serif;
@@ -411,6 +414,12 @@ h2 {
     margin: auto;
     margin-bottom: 30px;
   }
+
+  .paragrafo-carousel {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -430,6 +439,8 @@ h2 {
   #carousel-wolff {
     width: 99%;
     padding: 3px;
+    padding-top: 15px;
+    text-align: center;
   }
 
   li {
